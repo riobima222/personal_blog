@@ -12,6 +12,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
 import LetterPullup from "@/components/magicui/letterPullup";
+import { SiPhp } from "react-icons/si";
 
 const Icons = {
   html: () => (
@@ -84,6 +85,9 @@ const Icons = {
       <path d="M9 15v-6l7.745 10.65a9 9 0 1 1 2.255 -1.993" />
       <path d="M15 12v-3" />
     </svg>
+  ),
+  php: () => (
+    <SiPhp className="w-6 h-6"/>
   ),
 };
 
@@ -184,6 +188,9 @@ export default function HomePage() {
             <DockIcon>
               <Icons.nextjs />
             </DockIcon>
+            <DockIcon>
+              <Icons.php />
+            </DockIcon>
           </Dock>
         </div>
         <div className="--LEARN CONTENT-- mt-4 flex justify-center">
@@ -215,6 +222,13 @@ export default function HomePage() {
             >
               <div className="--ICONS--"></div>
               <span className="tracking-widest">nextjs</span>
+            </Link>
+            <Link
+              href="/learn/php"
+              className="rounded-md border-[1px] border-white flex justify-center px-3 text-sm hover:bg-white hover:text-black hover:border-black transition-all duration-300"
+            >
+              <div className="--ICONS--"></div>
+              <span className="tracking-widest">php</span>
             </Link>
           </div>
         </div>
