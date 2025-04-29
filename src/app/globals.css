@@ -67,3 +67,11 @@
     @apply bg-background text-foreground;
   }
 }
+
+ul {
+  list-style-type: disc; /* Bullet berbentuk titik */
+  margin-left: 2rem; /* Jarak dari kiri */
+}
+li {
+  margin: 10px 0;
+}
