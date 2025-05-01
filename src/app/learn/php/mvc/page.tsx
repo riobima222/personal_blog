@@ -24,9 +24,18 @@ const MvcPage = () => {
             href="/learn/php/mvc/intro"
             className="flex gap-3 font-bold items-center"
           >
-            <span> - </span>
+            <span> 1. </span>
             <h3 className="hover:text-transparent hover:bg-clip-text hover:font-bold hover:bg-gradient-to-r hover:from-green-400 hover:to-blue-500">
               Introduce
+            </h3>
+          </Link>
+          <Link
+            href="/learn/php/mvc/bootstraping"
+            className="flex gap-3 font-bold items-center mt-2"
+          >
+            <span> 2.</span>
+            <h3 className="hover:text-transparent hover:bg-clip-text hover:font-bold hover:bg-gradient-to-r hover:from-green-400 hover:to-blue-500">
+              Bootstraping
             </h3>
           </Link>
         </AnimatedBorder>
